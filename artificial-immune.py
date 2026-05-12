@@ -1,9 +1,4 @@
-# Artificial Immune Pattern Recognition
-# Structure Damage Classification
 
-# Training Data
-# 0 = No Damage
-# 1 = Damage
 
 data = [
     [2, 3, 0],
