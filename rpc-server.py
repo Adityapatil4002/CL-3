@@ -27,10 +27,3 @@ fact = 1
 for i in range(1, num + 1):
     fact *= i
 
-# Send result back to client
-conn.send(str(fact).encode())
-
-print("Factorial sent to client")
-
-# Close connection
-conn.close()
